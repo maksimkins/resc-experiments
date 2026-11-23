@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36" version="29.2.6">
+  <diagram name="Page-1" id="oP38D6CWeGSEp1OCLP48">
+    <mxGraphModel dx="1617" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cYZLpddg8kCVyMcnzPsz-6" edge="1" parent="1" source="cYZLpddg8kCVyMcnzPsz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYZLpddg8kCVyMcnzPsz-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="$$\mathcal{D} = \mathcal{N} \cup \mathcal{P}$$" vertex="1">
+          <mxGeometry height="100" width="170" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cYZLpddg8kCVyMcnzPsz-8" edge="1" parent="1" source="cYZLpddg8kCVyMcnzPsz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cYZLpddg8kCVyMcnzPsz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="270" width="640" x="310" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cYZLpddg8kCVyMcnzPsz-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="$$Set_{\mathcal{N}}$$" vertex="1">
+          <mxGeometry height="100" width="170" x="1030" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

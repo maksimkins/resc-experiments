@@ -219,6 +219,7 @@ __marimo__/
 
 data/raw/*
 data/processed/*
+data/resampled/*
 *.csv
 *.xlsx
 *.parquet

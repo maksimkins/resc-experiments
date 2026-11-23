@@ -1,0 +1,1000 @@
+{
+  "schema_version": 1,
+  "datasets": [
+    {
+      "dataset_key": "uci_abalone9_18",
+      "provider": "UCI",
+      "source_id": "1",
+      "source_url": "https://archive.ics.uci.edu/dataset/1",
+      "source_version": null,
+      "source_name": "abalone9-18",
+      "raw_filename": "uci_abalone9_18.csv",
+      "sha256": "c9479125c943b55beae4f2d5e80667d7e6db7034730788ca4f318fe69b0a7fcb",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 731,
+      "n_features": 8,
+      "feature_schema_ref": "uci_abalone9_18",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Rings",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 689,
+          "minority": 42
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_glass6",
+      "provider": "UCI",
+      "source_id": "42",
+      "source_url": "https://archive.ics.uci.edu/dataset/42",
+      "source_version": null,
+      "source_name": "glass6",
+      "raw_filename": "uci_glass6.csv",
+      "sha256": "c52a3bcfa42fd0f45f6c2558b305b60fbc07900ffc0e0e188443ed92bc568dd2",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 214,
+      "n_features": 9,
+      "feature_schema_ref": "uci_glass6",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Type_of_glass",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 185,
+          "minority": 29
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_haberman",
+      "provider": "UCI",
+      "source_id": "43",
+      "source_url": "https://archive.ics.uci.edu/dataset/43",
+      "source_version": null,
+      "source_name": "haberman",
+      "raw_filename": "uci_haberman.csv",
+      "sha256": "dbe3fe09d00fcfc2369892e84c63f440cdb2dae0fdcd730e23fb22e0f57c5c36",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 306,
+      "n_features": 3,
+      "feature_schema_ref": "uci_haberman",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "survival_status",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 225,
+          "minority": 81
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_page_blocks_13vs4",
+      "provider": "UCI",
+      "source_id": "78",
+      "source_url": "https://archive.ics.uci.edu/dataset/78",
+      "source_version": null,
+      "source_name": "page-blocks-13vs4",
+      "raw_filename": "uci_page_blocks_13vs4.csv",
+      "sha256": "6e8ec41819facec7ba1212854fa6c7f59b2eb3562063681444487feb7913c132",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 472,
+      "n_features": 10,
+      "feature_schema_ref": "uci_page_blocks_13vs4",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 444,
+          "minority": 28
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_spect",
+      "provider": "UCI",
+      "source_id": "95",
+      "source_url": "https://archive.ics.uci.edu/dataset/95",
+      "source_version": null,
+      "source_name": "spect",
+      "raw_filename": "uci_spect.csv",
+      "sha256": "b2274336e5a226aa54ccbf3de375d237c87796b67398d720049d7d6a1a5c19e0",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 267,
+      "n_features": 22,
+      "feature_schema_ref": "uci_spect",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "OVERALL_DIAGNOSIS",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 212,
+          "minority": 55
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_transfusion",
+      "provider": "UCI",
+      "source_id": "176",
+      "source_url": "https://archive.ics.uci.edu/dataset/176",
+      "source_version": null,
+      "source_name": "transfusion",
+      "raw_filename": "uci_transfusion.csv",
+      "sha256": "c2a766cac01fa5ec6ea219e1f21933acf46829f73015e30e8a2c065d6ed0b483",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 748,
+      "n_features": 4,
+      "feature_schema_ref": "uci_transfusion",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Donated_Blood",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 570,
+          "minority": 178
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_vertebral",
+      "provider": "UCI",
+      "source_id": "212",
+      "source_url": "https://archive.ics.uci.edu/dataset/212",
+      "source_version": null,
+      "source_name": "vertebral",
+      "raw_filename": "uci_vertebral.csv",
+      "sha256": "b71f0ebf1dfddaa7afe294241d240239af86bc1747b056473303a66b5629ec70",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 310,
+      "n_features": 6,
+      "feature_schema_ref": "uci_vertebral",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 210,
+          "minority": 100
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_wine3",
+      "provider": "UCI",
+      "source_id": "109",
+      "source_url": "https://archive.ics.uci.edu/dataset/109",
+      "source_version": null,
+      "source_name": "wine3",
+      "raw_filename": "uci_wine3.csv",
+      "sha256": "de187219321380ea968fba45146fa3e9c0aa6c6796b6343172555c1a8eaf17e7",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 178,
+      "n_features": 13,
+      "feature_schema_ref": "uci_wine3",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 130,
+          "minority": 48
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_wpbc",
+      "provider": "UCI",
+      "source_id": "16",
+      "source_url": "https://archive.ics.uci.edu/dataset/16",
+      "source_version": null,
+      "source_name": "wpbc",
+      "raw_filename": "uci_wpbc.csv",
+      "sha256": "e841f51b3e6fabfac7caa864996296ebe83f2984726f36852b4662805dbb7fe3",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 198,
+      "n_features": 33,
+      "feature_schema_ref": "uci_wpbc",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Outcome",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 151,
+          "minority": 47
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_yeast_1vs7",
+      "provider": "UCI",
+      "source_id": "110",
+      "source_url": "https://archive.ics.uci.edu/dataset/110",
+      "source_version": null,
+      "source_name": "yeast-1vs7",
+      "raw_filename": "uci_yeast_1vs7.csv",
+      "sha256": "8a74638bf720b5577ba7f053167daae445e6cbd59806006edf8457d8669afe0c",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 459,
+      "n_features": 8,
+      "feature_schema_ref": "uci_yeast_1vs7",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "localization_site",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 429,
+          "minority": 30
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "uci_seeds",
+      "provider": "UCI",
+      "source_id": "236",
+      "source_url": "https://archive.ics.uci.edu/static/public/236/seeds.zip",
+      "source_version": null,
+      "source_name": "seeds",
+      "raw_filename": "uci_seeds.csv",
+      "sha256": "0dea005424d2a7ea9cad956004545bfb618afc8d5d02ffca637d7332d060c9e6",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 210,
+      "n_features": 7,
+      "feature_schema_ref": "uci_seeds",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 140,
+          "minority": 70
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "keel_glass0",
+      "provider": "KEEL",
+      "source_id": "glass0",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/glass0.zip",
+      "source_version": null,
+      "source_name": "glass0",
+      "raw_filename": "keel_glass0.csv",
+      "sha256": "828082c524a60469ca49ccd6ae683d22619e50e69faedb7f9a5a493fa792e49c",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 214,
+      "n_features": 9,
+      "feature_schema_ref": "keel_glass0",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 144,
+          "minority": 70
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "keel_ecoli1",
+      "provider": "KEEL",
+      "source_id": "ecoli1",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/ecoli1.zip",
+      "source_version": null,
+      "source_name": "ecoli1",
+      "raw_filename": "keel_ecoli1.csv",
+      "sha256": "dc5e40d7e7a88d3b4fefa34fce77f075c7301722397f9c91d2fd8852e46ae5eb",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 336,
+      "n_features": 7,
+      "feature_schema_ref": "keel_ecoli1",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 259,
+          "minority": 77
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "keel_vowel0",
+      "provider": "KEEL",
+      "source_id": "vowel0",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p1/vowel0.zip",
+      "source_version": null,
+      "source_name": "vowel0",
+      "raw_filename": "keel_vowel0.csv",
+      "sha256": "b48d90c70306bde3a4ecfa2f4a4405cd749cc8c7dbf3d7543e8f55f80bee4ef1",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 988,
+      "n_features": 13,
+      "feature_schema_ref": "keel_vowel0",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 898,
+          "minority": 90
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "keel_vehicle0",
+      "provider": "KEEL",
+      "source_id": "vehicle0",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/vehicle0.zip",
+      "source_version": null,
+      "source_name": "vehicle0",
+      "raw_filename": "keel_vehicle0.csv",
+      "sha256": "077e80301f88842140cd5e580de5507ad618717c1101e6e7885f391cd956600b",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 846,
+      "n_features": 18,
+      "feature_schema_ref": "keel_vehicle0",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 647,
+          "minority": 199
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "keel_cleveland_0vs4",
+      "provider": "KEEL",
+      "source_id": "cleveland-0_vs_4",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRhigherThan9p2/cleveland-0_vs_4.zip",
+      "source_version": null,
+      "source_name": "cleveland-0-vs-4",
+      "raw_filename": "keel_cleveland_0vs4.csv",
+      "sha256": "5a8ac66c55a9ae418a515a5f6af7dbda3a8bdb3cefdc560ace95307d1958e656",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 173,
+      "n_features": 13,
+      "feature_schema_ref": "keel_cleveland_0vs4",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 160,
+          "minority": 13
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "keel_new_thyroid1",
+      "provider": "KEEL",
+      "source_id": "new-thyroid1",
+      "source_url": "https://sci2s.ugr.es/keel/keel-dataset/datasets/imbalanced/imb_IRlowerThan9/new-thyroid1.zip",
+      "source_version": null,
+      "source_name": "new-thyroid1",
+      "raw_filename": "keel_new_thyroid1.csv",
+      "sha256": "9febc3bdc6ba3e4816a046a9833446119bd6b6a32bf812e9c3d07cbfd364af78",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 215,
+      "n_features": 5,
+      "feature_schema_ref": "keel_new_thyroid1",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "majority",
+          "minority"
+        ],
+        "counts": {
+          "majority": 180,
+          "minority": 35
+        },
+        "minority_label": "minority",
+        "majority_label": "majority"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_arrhythmia",
+      "provider": "imbalanced-learn",
+      "source_id": "arrhythmia",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "arrhythmia",
+      "raw_filename": "imblearn_arrhythmia.csv",
+      "sha256": "1defb249b8e4062deec2315d7092616fcfbd0ecc078a8c6041f75d5007342b2b",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 452,
+      "n_features": 278,
+      "feature_schema_ref": "imblearn_arrhythmia",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 427,
+          "1": 25
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_car_eval_34",
+      "provider": "imbalanced-learn",
+      "source_id": "car_eval_34",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "car_eval_34",
+      "raw_filename": "imblearn_car_eval_34.csv",
+      "sha256": "de382c30f0c1b4ee841a3910c40d2de1ed6a4c5aa92cfb8a0ff795de40437608",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 1728,
+      "n_features": 21,
+      "feature_schema_ref": "imblearn_car_eval_34",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 1594,
+          "1": 134
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_ecoli",
+      "provider": "imbalanced-learn",
+      "source_id": "ecoli",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "ecoli",
+      "raw_filename": "imblearn_ecoli.csv",
+      "sha256": "eefd1449912e8d3771d78df47f32203e0c2831ddbb615c19b294a013967094ee",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 336,
+      "n_features": 7,
+      "feature_schema_ref": "imblearn_ecoli",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 301,
+          "1": 35
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_libras_move",
+      "provider": "imbalanced-learn",
+      "source_id": "libras_move",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "libras_move",
+      "raw_filename": "imblearn_libras_move.csv",
+      "sha256": "3d4391504bf9c08d4c36523114f69ddd3be78bb6e3832ac9abcde2561b185921",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 360,
+      "n_features": 90,
+      "feature_schema_ref": "imblearn_libras_move",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 336,
+          "1": 24
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_oil",
+      "provider": "imbalanced-learn",
+      "source_id": "oil",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "oil",
+      "raw_filename": "imblearn_oil.csv",
+      "sha256": "f038587837aa048c23d465ca7dd4401bc39c621de02752575400ba0b3a39c827",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 937,
+      "n_features": 49,
+      "feature_schema_ref": "imblearn_oil",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 896,
+          "1": 41
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_solar_flare_m0",
+      "provider": "imbalanced-learn",
+      "source_id": "solar_flare_m0",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "solar_flare_m0",
+      "raw_filename": "imblearn_solar_flare_m0.csv",
+      "sha256": "35a26a58ba86569612e2e29d8beb863a8bbeb7fca1fbe7f7760ebfe70418b627",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 1389,
+      "n_features": 32,
+      "feature_schema_ref": "imblearn_solar_flare_m0",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 1321,
+          "1": 68
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_spectrometer",
+      "provider": "imbalanced-learn",
+      "source_id": "spectrometer",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "spectrometer",
+      "raw_filename": "imblearn_spectrometer.csv",
+      "sha256": "45d3d70c5fe83c7ea7aad18287bd142945e0c11722c4d7483a21ba085fd9b460",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 531,
+      "n_features": 93,
+      "feature_schema_ref": "imblearn_spectrometer",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 486,
+          "1": 45
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_us_crime",
+      "provider": "imbalanced-learn",
+      "source_id": "us_crime",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "us_crime",
+      "raw_filename": "imblearn_us_crime.csv",
+      "sha256": "797a75a3b3edafe36dda8d6e7740bdeb2a340ff5373780964f956a4fcdd6429c",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 1994,
+      "n_features": 100,
+      "feature_schema_ref": "imblearn_us_crime",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 1844,
+          "1": 150
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "imblearn_yeast_me2",
+      "provider": "imbalanced-learn",
+      "source_id": "yeast_me2",
+      "source_url": "imbalanced-learn.fetch_datasets",
+      "source_version": "0.14.2",
+      "source_name": "yeast_me2",
+      "raw_filename": "imblearn_yeast_me2.csv",
+      "sha256": "f37101d5d0dce00e03babc9fbcecd40a7a2c89359d98847455bef1b22cf42466",
+      "missing_markers": {
+        "pandas_na": true
+      },
+      "n_samples": 1484,
+      "n_features": 8,
+      "feature_schema_ref": "imblearn_yeast_me2",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "target",
+        "labels": [
+          -1,
+          1
+        ],
+        "counts": {
+          "-1": 1433,
+          "1": 51
+        },
+        "minority_label": 1,
+        "majority_label": -1
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "openml_task_15_breast-w",
+      "provider": "OpenML",
+      "source_id": "task:15;dataset:15",
+      "source_url": "https://www.openml.org/t/15",
+      "source_version": "1",
+      "source_name": "breast-w",
+      "raw_filename": "openml_task_15_breast-w.csv",
+      "sha256": "b72a85711ff4a953b5900e7c6e88855709c302da4001afa42a0a4a076204ea5b",
+      "missing_markers": {
+        "pandas_na": true,
+        "openml_default_missing_value": null
+      },
+      "n_samples": 699,
+      "n_features": 9,
+      "feature_schema_ref": "openml_task_15_breast-w",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "benign",
+          "malignant"
+        ],
+        "counts": {
+          "benign": 458,
+          "malignant": 241
+        },
+        "minority_label": "malignant",
+        "majority_label": "benign"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "openml_task_50_heart-h",
+      "provider": "OpenML",
+      "source_id": "task:50;dataset:51",
+      "source_url": "https://www.openml.org/t/50",
+      "source_version": "1",
+      "source_name": "heart-h",
+      "raw_filename": "openml_task_50_heart-h.csv",
+      "sha256": "3285693576d009a8e26ab20b134245f619d8d59ca71f23bdeb31334270af63f2",
+      "missing_markers": {
+        "pandas_na": true,
+        "openml_default_missing_value": null
+      },
+      "n_samples": 294,
+      "n_features": 13,
+      "feature_schema_ref": "openml_task_50_heart-h",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "num",
+        "labels": [
+          "<50",
+          ">50_1"
+        ],
+        "counts": {
+          "<50": 188,
+          ">50_1": 106
+        },
+        "minority_label": ">50_1",
+        "majority_label": "<50"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "openml_task_57_ionosphere",
+      "provider": "OpenML",
+      "source_id": "task:57;dataset:59",
+      "source_url": "https://www.openml.org/t/57",
+      "source_version": "1",
+      "source_name": "ionosphere",
+      "raw_filename": "openml_task_57_ionosphere.csv",
+      "sha256": "9cb05353326e0803d8d8651d7731a20ae44fac9df42582a86270e8c2723b3bc6",
+      "missing_markers": {
+        "pandas_na": true,
+        "openml_default_missing_value": null
+      },
+      "n_samples": 351,
+      "n_features": 34,
+      "feature_schema_ref": "openml_task_57_ionosphere",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "class",
+        "labels": [
+          "g",
+          "b"
+        ],
+        "counts": {
+          "g": 225,
+          "b": 126
+        },
+        "minority_label": "b",
+        "majority_label": "g"
+      },
+      "eligible": true
+    },
+    {
+      "dataset_key": "openml_task_9969_thoracic-surgery",
+      "provider": "OpenML",
+      "source_id": "task:9969;dataset:1506",
+      "source_url": "https://www.openml.org/t/9969",
+      "source_version": "1",
+      "source_name": "thoracic-surgery",
+      "raw_filename": "openml_task_9969_thoracic-surgery.csv",
+      "sha256": "f39310103dac9a08aac469e25d1f8bf760d21999d31265921641ac45a6cc2d9d",
+      "missing_markers": {
+        "pandas_na": true,
+        "openml_default_missing_value": null
+      },
+      "n_samples": 470,
+      "n_features": 16,
+      "feature_schema_ref": "openml_task_9969_thoracic-surgery",
+      "categorical_drop_eligible": true,
+      "categorical_drop_exclusion_reason": null,
+      "target": {
+        "name": "target",
+        "source_name": "Class",
+        "labels": [
+          "2",
+          "1"
+        ],
+        "counts": {
+          "2": 400,
+          "1": 70
+        },
+        "minority_label": "1",
+        "majority_label": "2"
+      },
+      "eligible": true
+    }
+  ],
+  "exclusions": []
+}
